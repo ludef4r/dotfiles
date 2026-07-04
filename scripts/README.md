@@ -9,6 +9,7 @@ Each script is responsible for a specific part of the system, making the setup m
 | Script           | Purpose                                                              |
 | ---------------- | -------------------------------------------------------------------- |
 | `setup.sh`       | Entry point that executes the complete setup process.                |
+| display.sh       | Installs and configures display-related software.                    |
 | `development.sh` | Installs development tools.                                          |
 | `fonts.sh`       | Installs the fonts used throughout the system.                       |
 
@@ -16,9 +17,9 @@ Each script is responsible for a specific part of the system, making the setup m
 
 The setup is split into multiple scripts instead of one large file to keep responsibilities separated.
 
-`setup.sh` determines the root directory of the repository and exposes it through the `REPO_ROOT` environment variable. Child scripts use this variable when creating symbolic links to the configuration files.
+`setup.sh` determines the repository's location and defines the shared environment variables required by the other setup scripts.
 
-Configuration files are not copied into `~/.config`. Instead, symbolic links are created so that the files inside this repository remain the single source of truth.
+Configuration files are not copied into the destination configured. Instead, symbolic links are created so that the files inside this repository remain the single source of truth.
 
 ## Usage
 

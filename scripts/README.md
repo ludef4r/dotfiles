@@ -9,7 +9,7 @@ Each script is responsible for a specific part of the system, making the setup m
 | Script           | Purpose                                                              |
 | ---------------- | -------------------------------------------------------------------- |
 | `setup.sh`       | Entry point that executes the complete setup process.                |
-| display.sh       | Installs and configures display-related software.                    |
+| `display.sh`     | Installs and configures display-related software.                    |
 | `development.sh` | Installs development tools.                                          |
 | `fonts.sh`       | Installs the fonts used throughout the system.                       |
 

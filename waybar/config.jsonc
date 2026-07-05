@@ -1,7 +1,7 @@
 {
 	// Files
 	"include": [
-		"modules/custom/*.jsonc"
+		"modules/*.jsonc"
 	],
 
 	// Options

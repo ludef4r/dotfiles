@@ -1,0 +1,16 @@
+{
+	// Files
+	"include": [],
+
+	// Options
+	"layer": "top",
+	"position": "top",
+	"height": 0,
+	"spacing": 0,
+	"margin": 0,
+	"exclusive": true,
+	"passthrough": false,
+	"fixed-center": true,
+	"start-hidden": false,
+	"reload_style_one_change": true
+}

@@ -1,6 +1,8 @@
 {
 	// Files
-	"include": [],
+	"include": [
+		"modules/custom/*.jsonc"
+	],
 
 	// Options
 	"layer": "top",
@@ -12,5 +14,10 @@
 	"passthrough": false,
 	"fixed-center": true,
 	"start-hidden": false,
-	"reload_style_one_change": true
+	"reload_style_one_change": true,
+
+	// Modules
+	"modules-center": [
+		"custom/distro"
+	]
 }

@@ -17,6 +17,9 @@
 	"reload_style_one_change": true,
 
 	// Modules
+	"modules-left": [
+		"hyprland/workspaces"
+	],
 	"modules-center": [
 		"custom/distro"
 	]

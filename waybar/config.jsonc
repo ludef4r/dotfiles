@@ -18,7 +18,8 @@
 
 	// Modules
 	"modules-left": [
-		"hyprland/workspaces"
+		"hyprland/workspaces",
+		"hyprland/window"
 	],
 	"modules-center": [
 		"custom/distro"

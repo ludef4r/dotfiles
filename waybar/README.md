@@ -20,10 +20,12 @@ The layout should remain clean, readable, and informative without becoming visua
 
 ## Configuration Structure
 
-- `config` – main Waybar configuration
-- `modules/` – individual module definitions
-- `style.css` – global stylesheet and entry point for module styles
-- `styles/` – individual module styling
+| Path        | Description                                              |
+| ----------- | -------------------------------------------------------- |
+| `config`    | Main Waybar configuration.                               |
+| `modules/`  | Individual module configurations.                        |
+| `style.css` | Global stylesheet and entry point for all module styles. |
+| `styles/`   | Module-specific stylesheets imported by `style.css`.     |
 
 ## Planned Features
 

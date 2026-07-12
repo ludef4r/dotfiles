@@ -7,7 +7,7 @@ The goal is to make common system information visible at a glance, reducing the 
 
 ## Goals
 
-The bar should always display:
+The bar should provide at least the following information:
 
 * Workspaces
 * Current date
@@ -18,17 +18,25 @@ The bar should always display:
 
 The layout should remain clean, readable, and informative without becoming visually distracting.
 
+## Configuration Structure
+
+- `config` – main Waybar configuration
+- `modules/` – individual module definitions
+- `style.css` – global stylesheet and entry point for module styles
+- `styles/` – individual module styling
+
 ## Planned Features
 
 ### Workspaces
 
 * Display all active workspaces.
-* Show an icon representing the primary purpose of the main workspace.
+* Show an icon representing the primary application assigned to each workspace.
 * Display the name of the currently focused application next to the workspace list.
 
 ### Date and Time
 
 * Always display the current date and time.
+* When the date is hovered, display a monthly calendar.
 
 ### Network
 
@@ -61,10 +69,21 @@ Additional functionality will be added as new needs arise during daily use.
 
 ## Current Status
 
-- [ ] Basic layout
-- [ ] Workspace customization
-- [ ] Network module
-- [ ] Audio module
-- [ ] Battery module
-- [ ] Hover tooltips
-- [ ] Window spacing
+- [ ] Core Modules
+    - [X] Workspaces
+    - [X] Focused Window Title
+    - [X] Date
+    - [X] Time
+    - [ ] Network
+    - [ ] Audio
+    - [ ] Battery
+
+- [ ] Styling
+    - [ ] Bar
+    - [ ] Workspaces
+    - [ ] Focused Window Title
+    - [ ] Date
+    - [ ] Time
+    - [ ] Network
+    - [ ] Audio
+    - [ ] Battery

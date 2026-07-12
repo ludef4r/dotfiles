@@ -22,6 +22,8 @@
 		"hyprland/window"
 	],
 	"modules-center": [
-		"custom/distro"
+		"clock#date",
+		"custom/distro",
+		"clock#time"
 	]
 }

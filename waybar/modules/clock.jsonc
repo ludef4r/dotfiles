@@ -1,0 +1,28 @@
+{
+	// Time
+	"clock#time": {
+		"interval": 60,
+		"format": "{:%I:%M %p}",
+		"timezone": "Europe/Lisbon",
+		"tooltip": false
+	},
+
+	// Date
+    	"clock#date": {
+	    	"format": "󰸗  {:%d-%m}",
+	    	"min-length": 8,
+            	"max-length": 8,
+		"cursor": false,
+	    	"tooltip": true,
+        	"tooltip-format": "<tt><small>{calendar}</small></tt>",
+		"calendar": {
+			"mode": "month",
+			"iso8601": false,
+			"first-day-of-week": 0
+		},
+		"actions": {
+			"on-scroll-up": "shift_down",
+			"on-scroll-down": "shift_up"
+		}
+	}
+}

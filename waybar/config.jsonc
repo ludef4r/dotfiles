@@ -25,5 +25,8 @@
 		"clock#date",
 		"custom/distro",
 		"clock#time"
+	],
+	"modules-right": [
+		"battery"
 	]
 }

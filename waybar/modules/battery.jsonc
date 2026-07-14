@@ -1,0 +1,18 @@
+{
+    "battery": {
+	    "full-at": 100,
+	    "design-capacity": false,
+	    "interval": 60,
+	    "smooth-power": true,
+	    "states": {
+            	"warning": 20,
+            	"critical": 10
+	    },
+	    "format": "{icon} {capacity}%",
+	    "format-charging": " {capacity}%",
+	    "format-icons": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂" ],
+	    "justify": "center",
+	    "tooltip": true,
+	    "tooltip-format": "⏰ {timeTo}"
+    }
+}

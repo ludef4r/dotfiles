@@ -27,6 +27,7 @@
 		"clock#time"
 	],
 	"modules-right": [
+		"network",
 		"battery"
 	]
 }

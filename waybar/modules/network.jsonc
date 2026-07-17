@@ -1,0 +1,25 @@
+{
+	"network": {
+		"interval": 10,
+		"format-wifi": "{icon}",
+		"format-ethernet": "󰌗",
+
+		"format": "󰤨",
+		"format-disconnected": "󰤮",
+		"format-disabled": "✈︎",
+		"format-icons": [
+			"󰤟", "󰤢", "󰤥", "󰤨"
+		],
+
+		"min-length": 2,
+		"max-length": 2,
+		"align": 0.5,
+		"justify": "center",
+
+		"tooltip": true,
+		"tooltip-format-ethernet": "<b>Interface</b>: {ifname}",
+		"tooltip-format-wifi": "<b>Network</b>: {essid}\n<b>Strength</b>: {signalStrength}%\n<b>Frequency</b>: {frequency} GHz",
+		"tooltip-format-disconnected": "Disconnected",
+		"tooltip-format-disabled": "Disabled"
+	}
+}

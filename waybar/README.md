@@ -76,7 +76,7 @@ Additional functionality will be added as new needs arise during daily use.
     - [X] Focused Window Title
     - [X] Date
     - [X] Time
-    - [ ] Network
+    - [X] Network
     - [ ] Audio
     - [X] Battery
 

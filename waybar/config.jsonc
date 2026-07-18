@@ -27,6 +27,8 @@
 		"clock#time"
 	],
 	"modules-right": [
+		"pulseaudio#input",
+		"pulseaudio#output",
 		"network",
 		"battery"
 	]

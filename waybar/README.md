@@ -77,7 +77,7 @@ Additional functionality will be added as new needs arise during daily use.
     - [X] Date
     - [X] Time
     - [X] Network
-    - [ ] Audio
+    - [X] Audio
     - [X] Battery
 
 - [ ] Styling

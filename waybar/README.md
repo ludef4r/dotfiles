@@ -71,7 +71,7 @@ Additional functionality will be added as new needs arise during daily use.
 
 ## Current Status
 
-- [ ] Core Modules
+- [X] Core Modules
     - [X] Workspaces
     - [X] Focused Window Title
     - [X] Date

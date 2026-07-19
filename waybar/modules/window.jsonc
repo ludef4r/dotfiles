@@ -1,14 +1,14 @@
 {
-	"hyprland/window": {
-		"format": "{title}",
-		"max-length": 10,
-		"rewrite": {
-			"": "Desktop",
-			"kitty": "Terminal",
-			"alacritty": "Terminal",
-			"recent documents": "Documents"
-		},
-		"separate-outputs": true,
-		"icon": false
-	}
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 10,
+        "rewrite": {
+            "": "Desktop",
+            "kitty": "Terminal",
+            "alacritty": "Terminal",
+            "recent documents": "Documents"
+        },
+        "separate-outputs": true,
+        "icon": false
+    }
 }

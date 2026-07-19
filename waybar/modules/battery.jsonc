@@ -1,22 +1,22 @@
 {
     "battery": {
-	    "full-at": 100,
-	    "design-capacity": false,
-	    "interval": 60,
-	    "smooth-power": true,
-	    "states": {
-            	"warning": 20,
-            	"critical": 10
-	    },
+        "full-at": 100,
+        "design-capacity": false,
+        "interval": 60,
+        "smooth-power": true,
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
 
-	    "format": "{icon}",
-	    "format-charging": "",
-	    "format-icons": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂" ],
+        "format": "{icon}",
+        "format-charging": "",
+        "format-icons": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂" ],
 
         "align": 0.5,
-	    "justify": "center",
+        "justify": "center",
 
-	    "tooltip": true,
-	    "tooltip-format": "<b>Battery:</b> {capacity}%\n<b>Time:</b> {timeTo}"
+        "tooltip": true,
+        "tooltip-format": "<b>Battery:</b> {capacity}%\n<b>Time:</b> {timeTo}"
     }
 }

@@ -1,8 +1,10 @@
 {
-	"custom/distro": {
-		"format": "󰣇",
-		"min-length": 2,
-		"max-length": 2,
-		"tooltip": false
-	}
+    "custom/distro": {
+        "format": "󰣇",
+
+        "min-length": 2,
+        "max-length": 2,
+
+        "tooltip": false
+    }
 }

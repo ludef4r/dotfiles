@@ -8,11 +8,15 @@
             	"warning": 20,
             	"critical": 10
 	    },
-	    "format": "{icon} {capacity}%",
-	    "format-charging": " {capacity}%",
+
+	    "format": "{icon}",
+	    "format-charging": "",
 	    "format-icons": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂" ],
+
+        "align": 0.5,
 	    "justify": "center",
+
 	    "tooltip": true,
-	    "tooltip-format": "⏰ {timeTo}"
+	    "tooltip-format": "<b>Battery:</b> {capacity}%\n<b>Time:</b> {timeTo}"
     }
 }

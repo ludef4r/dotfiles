@@ -1,0 +1,3 @@
+/* Main Bar */
+@define-color bar_bg transparent;
+@define-color text_color rgba(255, 255, 255, 0.15);

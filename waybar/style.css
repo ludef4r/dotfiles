@@ -1,7 +1,15 @@
+@import "styles/colors.css";
+
 /* Defaults */
 * {
 	font-family: "Noto Sans", "FiraCode Nerd Font", "Noto Nerd Emoji";
 	font-size: 15px;
-	margin: 0px;
+	margin: 2px;
 	padding: 0px;
+}
+
+/* Main Bar */
+window#waybar {
+    background: @bar_bg;
+    color: @text_color;
 }

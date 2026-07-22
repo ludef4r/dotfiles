@@ -1,5 +1,7 @@
 @import "styles/colors.css";
 
+@import "styles/modules.css";
+
 /* Defaults */
 * {
 	font-family: "Noto Sans", "FiraCode Nerd Font", "Noto Nerd Emoji";

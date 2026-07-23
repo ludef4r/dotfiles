@@ -1,6 +1,8 @@
 @import "styles/colors.css";
 
 @import "styles/modules.css";
+@import "styles/workspaces.css";
+@import "styles/window.css";
 
 /* Defaults */
 * {

@@ -1,14 +1,8 @@
-#workspaces {
-    background-color: @ws_bg;
-    border-radius: 25px;
-}
-
 #workspaces button {
-    background-color: @ws_inactive_bg;
-    color: @ws_inactive_fg;
+    color: @ws_inactive;
 }
 
 #workspaces button.active {
-    color: @ws_active_fg;
+    color: @text_color;
 }
 

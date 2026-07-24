@@ -1,3 +1,4 @@
 #window {
-    color: @ws_active_fg;
+    color: @text_color;
+    padding-left: 5px;
 }

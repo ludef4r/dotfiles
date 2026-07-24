@@ -1,11 +1,11 @@
+/* Defaults */
+@define-color text_color rgba(255, 255, 255, 0.75);
+
 /* Main Bar */
 @define-color bar_bg transparent;
-@define-color text_color rgba(255, 255, 255, 0.15);
 
 /* Modules */
 @define-color modules_bg #384250;
 
 /* Workspaces */
-@define-color ws_bg rgba(15, 15, 15, 0.75);
-@define-color ws_active_fg #d8dee9;
-@define-color ws_inactive_fg #384250;
+@define-color ws_inactive #384250;

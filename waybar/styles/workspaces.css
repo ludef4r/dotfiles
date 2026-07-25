@@ -12,3 +12,21 @@
     box-shadow: none;
     text-shadow: none;
 }
+
+#workspaces button.urgent {
+    animation: urgent-blink 1s infinite;
+}
+
+@keyframes urgent-blink {
+    0% {
+        color: @ws_urgent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: @ws_urgent;
+    }
+}

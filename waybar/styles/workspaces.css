@@ -6,3 +6,9 @@
     color: @text_color;
 }
 
+#workspaces button:hover {
+    background: @bar_bg; 
+    border-color: @bar_bg;
+    box-shadow: none;
+    text-shadow: none;
+}

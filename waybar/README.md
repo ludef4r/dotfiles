@@ -82,8 +82,8 @@ Additional functionality will be added as new needs arise during daily use.
 
 - [ ] Styling
     - [ ] Bar
-    - [ ] Workspaces
-    - [ ] Focused Window Title
+    - [X] Workspaces
+    - [X] Focused Window Title
     - [ ] Date
     - [ ] Time
     - [ ] Network

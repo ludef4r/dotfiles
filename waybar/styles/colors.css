@@ -10,3 +10,6 @@
 /* Workspaces */
 @define-color ws_inactive #384250;
 @define-color ws_urgent #ff5555;
+
+/* Distro */
+@define-color distro_bg #1793d1;

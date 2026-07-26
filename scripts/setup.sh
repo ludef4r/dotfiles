@@ -12,4 +12,6 @@ mkdir -p ~/.config
 
 "$SCRIPT_DIR/fonts.sh"
 "$SCRIPT_DIR/development.sh"
+"$SCRIPT_DIR/display.sh"
+"$SCRIPT_DIR/utilities.sh"
 

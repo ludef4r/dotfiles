@@ -11,6 +11,7 @@ Each script is responsible for a specific part of the system, making the setup m
 | `setup.sh`       | Entry point that executes the complete setup process.                |
 | `development.sh` | Installs development tools.                                          |
 | `fonts.sh`       | Installs the fonts used throughout the system.                       |
+| `utilities.sh`   | Installs command-line utilities.                                     |
 
 ## Design
 

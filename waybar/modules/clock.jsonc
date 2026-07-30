@@ -20,12 +20,20 @@
         "cursor": false,
 
         "tooltip": true,
-        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<tt ><small>{calendar}</small></tt>",
 
         "calendar": {
             "mode": "month",
             "iso8601": false,
-            "first-day-of-week": 0
+            "first-day-of-week": 0,
+
+            "format": {
+                "months": "<span foreground='#E5E9F0' size='medium'><b>{}</b></span>\n<span foreground='#5A6578'>────────────────────</span>",
+                "weekdays": "<span foreground='#1793D1'><b>{}</b></span>",
+                "days": "<span foreground='#D8DEE9'>{}</span>",
+                "weeks": "<span foreground='#6B7280'>{}</span>",
+                "today": "<span foreground='#1793D1'><b>{}</b></span>"
+            }
         },
 
         "actions": {

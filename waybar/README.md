@@ -81,11 +81,11 @@ Additional functionality will be added as new needs arise during daily use.
     - [X] Battery
 
 - [ ] Styling
-    - [ ] Bar
+    - [x] Bar
     - [X] Workspaces
     - [X] Focused Window Title
-    - [ ] Date
-    - [ ] Time
+    - [X] Date
+    - [X] Time
     - [ ] Network
     - [ ] Audio
     - [ ] Battery

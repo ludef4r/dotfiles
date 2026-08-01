@@ -21,6 +21,7 @@ These configurations evolve alongside my projects. Whenever I notice friction in
 | Components | Status       |
 | ---------- | ------------ |
 | Waybar     | In Progress  |
+| Neovim     | In Progress  |
 | Git        | In Progress  |
 | Setup      | In Progress  |
 

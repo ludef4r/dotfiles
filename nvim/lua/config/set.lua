@@ -21,7 +21,6 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
 vim.opt.ignorecase = true
-vim.opt.smartcase = true
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true

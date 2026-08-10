@@ -5,6 +5,7 @@ return {
 	opts = {
 		keymap = { 
 			preset = 'enter',
+            ['<Tab>'] = { 'accept', 'fallback'  },
 			['<C-e>'] = false,
 			['<C-k>'] = false
 		},

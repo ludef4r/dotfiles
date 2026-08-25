@@ -5,15 +5,15 @@ return {
     build = ':TSUpdate',
 
     opts = {
-        ensure_installed = { 
-            "c", 
-            "lua" 
+        ensure_installed = {
+            "c",
+            "lua"
         },
 
         sync_install = false,
         auto_install = true,
 
-        highlight = { 
+        highlight = {
             enable = true,
             additional_vim_regex_highlighting = false
         }

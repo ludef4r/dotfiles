@@ -1,0 +1,26 @@
+#battery {
+    color: @text_color;
+}
+
+#battery.warning {
+    color: @battery_warning;
+}
+
+#battery.critical {
+    color: @battery_critical;
+    animation: battery-critical 1s infinite;
+}
+
+@keyframes battery-critical {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

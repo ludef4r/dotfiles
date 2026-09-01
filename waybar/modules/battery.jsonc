@@ -5,7 +5,7 @@
         "interval": 60,
         "smooth-power": true,
         "states": {
-            "warning": 20,
+            "warning": 30,
             "critical": 10
         },
 

@@ -1,5 +1,6 @@
 /* Defaults */
 @define-color text_color rgba(255, 255, 255, 0.75);
+@define-color text_muted #384250;
 
 /* Main Bar */
 @define-color bar_bg transparent;
@@ -7,9 +8,9 @@
 /* Modules */
 @define-color modules_bg #384250;
 
-/* Workspaces */
-@define-color ws_inactive #384250;
-@define-color ws_urgent #ff5555;
-
 /* Distro */
 @define-color distro_bg #1793d1;
+
+/* State */
+@define-color warning #EBCB8B;
+@define-color urgent #ff5555;

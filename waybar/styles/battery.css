@@ -1,13 +1,14 @@
 #battery {
+    padding-right: 1px;
     color: @text_color;
 }
 
 #battery.warning {
-    color: @battery_warning;
+    color: @warning;
 }
 
 #battery.critical {
-    color: @battery_critical;
+    color: @urgent;
     animation: battery-critical 1s infinite;
 }
 

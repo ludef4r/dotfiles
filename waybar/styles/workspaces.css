@@ -1,5 +1,5 @@
 #workspaces button {
-    color: @ws_inactive;
+    color: @text_muted;
 }
 
 #workspaces button.active {
@@ -19,7 +19,7 @@
 
 @keyframes urgent-blink {
     0% {
-        color: @ws_urgent;
+        color: @urgent;
     }
 
     50% {
@@ -27,6 +27,6 @@
     }
 
     100% {
-        color: @ws_urgent;
+        color: @urgent;
     }
 }

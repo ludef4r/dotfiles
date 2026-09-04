@@ -1,0 +1,14 @@
+#network {
+    color: @text_color;
+    padding-right: 6px;
+}
+
+/* Not connected */
+#network.disconnected {
+    color: @text_muted;
+}
+
+/* Airplane mode / radio disabled */
+#network.disabled {
+    color: @warning;
+}

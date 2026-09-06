@@ -1,7 +1,10 @@
 @import "styles/colors.css";
 
+@import "styles/audio.css";
+@import "styles/battery.css";
 @import "styles/distro.css";
 @import "styles/modules.css";
+@import "styles/network.css";
 @import "styles/window.css";
 @import "styles/workspaces.css";
 
@@ -17,4 +20,15 @@
 window#waybar {
     background: @bar_bg;
     color: @text_color;
+}
+
+/* Tooltip */
+tooltip {
+    background: rgba(56, 66, 80, 0.55);
+    color: @text_color;
+
+    border: 1px solid @text_muted;
+    border-radius: 10px;
+
+    padding: 8px;
 }

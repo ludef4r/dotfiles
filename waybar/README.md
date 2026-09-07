@@ -48,16 +48,14 @@ The layout should remain clean, readable, and informative without becoming visua
 
 ### Audio
 
-* Display the current volume.
 * Indicate whether audio is muted.
 * Indicate whether the output device is internal or external.
-* On hover, display the name of the active output device.
+* On hover, display the name and volume of the active output/input device.
 
 ### Battery
 
-* Display the current battery percentage.
 * Indicate whether the battery is charging or discharging.
-* On hover, display the estimated remaining battery time.
+* On hover, display the current battery percentage and estimated remaining battery time.
 
 ## Design
 
@@ -68,24 +66,3 @@ The layout should remain clean, readable, and informative without becoming visua
 ## Future Improvements
 
 Additional functionality will be added as new needs arise during daily use.
-
-## Current Status
-
-- [X] Core Modules
-    - [X] Workspaces
-    - [X] Focused Window Title
-    - [X] Date
-    - [X] Time
-    - [X] Network
-    - [X] Audio
-    - [X] Battery
-
-- [ ] Styling
-    - [x] Bar
-    - [X] Workspaces
-    - [X] Focused Window Title
-    - [X] Date
-    - [X] Time
-    - [ ] Network
-    - [ ] Audio
-    - [ ] Battery

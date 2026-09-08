@@ -1,5 +1,7 @@
 # Waybar
 
+![image](assets/waybar.png)
+
 ## Purpose
 
 Waybar provides quick access to the information I check most often while using my computer.

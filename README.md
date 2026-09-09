@@ -20,7 +20,7 @@ These configurations evolve alongside my projects. Whenever I notice friction in
 
 | Components | Status       |
 | ---------- | ------------ |
-| Waybar     | In Progress  |
+| Waybar     | Stable       |
 | Git        | In Progress  |
 | Setup      | In Progress  |
 

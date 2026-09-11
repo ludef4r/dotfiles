@@ -3,7 +3,7 @@ return {
 
 	version = '1.*',
 	opts = {
-		keymap = { 
+		keymap = {
 			preset = 'enter',
             ['<Tab>'] = { 'accept', 'fallback'  },
 			['<C-e>'] = false,
